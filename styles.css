@@ -59,6 +59,9 @@ button {
   display: flex;
   flex: 1;
   gap: 30px;
+  padding: 100px 100px;
+  align-items: center;
+  justify-content: center;
 }
 
 .description button {
@@ -77,6 +80,7 @@ button {
 .left-description {
   display: flex;
   flex-direction: column;
+  max-width: 440px;
 }
 
 .left-description h1 {
