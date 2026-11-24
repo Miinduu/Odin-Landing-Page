@@ -28,6 +28,11 @@ a {
   color: white;
 }
 
+button {
+  border-radius: 4px;
+  color: white;
+}
+
 .padding {
   padding: 0px 100px;
 }
@@ -53,6 +58,16 @@ a {
 .description {
   display: flex;
   flex: 1;
+  gap: 30px;
+}
+
+.description button {
+  background-color: rgb(7, 85, 158);
+  border-color: rgb(7, 85, 158);
+  min-width: 100px;
+  max-width: 100px;
+  min-height: 30px;
+  max-height: 30px;
 }
 
 .description img {
@@ -62,6 +77,10 @@ a {
 .left-description {
   display: flex;
   flex-direction: column;
+}
+
+.left-description h1 {
+  margin-right: 80px;
 }
 
 .card img {
@@ -107,6 +126,13 @@ a {
 .promotion-text {
   display: flex;
   flex-direction: column;
+}
+
+.promotion button {
+  min-height: 30px;
+  max-height: 30px;
+  min-width: 100px;
+  max-width: 100px;
 }
 
 .footer {
