@@ -7,6 +7,14 @@ html {
     "wdth" 100;
 }
 
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0px;
+}
+
 ul {
   margin: 0px;
   padding: 0px;
