@@ -128,8 +128,14 @@ button {
   flex: 1;
 }
 
+.quote cite {
+  max-width: 400px;
+}
+
 .credit {
   font-weight: bold;
+    text-align: right;
+
 }
 
 .promotion {
