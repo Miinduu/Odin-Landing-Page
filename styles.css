@@ -54,4 +54,13 @@ a {
 
 .cards {
   display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.card {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   flex-grow: 0;
 }
