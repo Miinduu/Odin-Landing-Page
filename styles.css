@@ -1,0 +1,57 @@
+html {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logo {
+  width: 80px;
+}
+
+.dark {
+  background-color: rgb(25, 25, 43);
+  color: white;
+}
+
+.description {
+  display: flex;
+}
+
+.description img {
+  width: 400px;
+}
+
+.left-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.card img {
+  height: 100px;
+}
+
+.cards {
+  display: flex;
+}
