@@ -64,3 +64,15 @@ a {
    flex-direction: column;
    flex-grow: 0;
 }
+
+.quote {
+  background-color: rgb(82, 181, 247);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.credit {
+  font-weight: bold;
+}
