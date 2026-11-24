@@ -102,3 +102,7 @@ a {
   color: white;
   text-align: center;
 }
+
+.padding {
+  padding: 0px 100px;
+}
