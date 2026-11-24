@@ -97,6 +97,7 @@ button {
   justify-content: space-between;
   gap: 32px;
   flex: 1;
+  align-items: flex-start;
 }
 
 .information {
