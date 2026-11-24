@@ -115,6 +115,10 @@ button {
    text-align: center;
 }
 
+.card p {
+  max-width: 200px;
+}
+
 .quote {
   background-color: rgb(208, 236, 255);
   display: flex;
