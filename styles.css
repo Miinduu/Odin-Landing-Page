@@ -88,3 +88,9 @@ a {
   display: flex;
   flex-direction: column;
 }
+
+.footer {
+  background-color: rgb(25, 25, 43);
+  color: white;
+  text-align: center;
+}
