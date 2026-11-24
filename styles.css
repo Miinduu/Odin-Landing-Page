@@ -28,10 +28,17 @@ a {
   color: white;
 }
 
+.padding {
+  padding: 0px 100px;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex: 1;
+  max-height: 50px;
+  padding: 10px 100px;
 }
 
 .header .logo {
@@ -45,6 +52,7 @@ a {
 
 .description {
   display: flex;
+  flex: 1;
 }
 
 .description img {
@@ -64,6 +72,7 @@ a {
   display: flex;
   justify-content: space-between;
   gap: 32px;
+  flex: 1;
 }
 
 .card {
@@ -79,6 +88,7 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  flex: 1;
 }
 
 .credit {
@@ -90,6 +100,8 @@ a {
   border-radius: 10px;
   display: flex;
   justify-content: space-evenly;
+  flex: 1;
+  margin: 100px;
 }
 
 .promotion-text {
@@ -101,8 +113,5 @@ a {
   background-color: rgb(25, 25, 43);
   color: white;
   text-align: center;
-}
-
-.padding {
-  padding: 0px 100px;
+  padding: 25px;
 }
